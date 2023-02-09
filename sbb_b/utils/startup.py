@@ -111,7 +111,7 @@ async def startupmessage():
             if BOTLOG:
                 await sbb_b.tgbot.send_file(
                     BOTLOG_CHATID,
-                    "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
+                    "https://graph/file/a02238223d5271d92a3ab.jpg",
                     caption="**شكرا لتنصيبك سورس ثري ثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس ثري ثون.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
