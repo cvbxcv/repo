@@ -111,7 +111,7 @@ async def startupmessage():
             if BOTLOG:
                 await sbb_b.tgbot.send_file(
                     BOTLOG_CHATID,
-                    "https://graph/file/a02238223d5271d92a3ab.jpg",
+                    "https://graph.org/file/60510d3f7487ab0b5fd6a.mp4",
                     caption="**شكرا لتنصيبك سورس ثري ثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس ثري ثون.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
@@ -125,7 +125,7 @@ async def startupmessage():
                     BOTLOG_CHATID,
                     "**لقد تم بنجاح تنصيب سورس ثري ثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @CCYFC\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @CCYFC_support\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/jmthon_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/t.me/CCYFC_SUPPORT"),)
                     ],
                 )
         except Exception as e:
