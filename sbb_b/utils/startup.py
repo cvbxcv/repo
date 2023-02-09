@@ -123,9 +123,9 @@ async def startupmessage():
             if BOTLOG:
                 await sbb_b.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس ثري ثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @CCYFC\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @CCYFC_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس ثري ثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @CCYFC\n**المطور**: @WWK3W\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @CCYFC_support\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/t.me/CCYFC_SUPPORT"),)
+                        (Button.url("كروب المساعدة", "https://t.me/t.me/CCYFC_support"),)
                     ],
                 )
         except Exception as e:
